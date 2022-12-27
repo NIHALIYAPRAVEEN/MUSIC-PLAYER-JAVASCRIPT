@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(191, 202, 211);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 53px;
+  background-color: rgb(89, 110, 110);
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.brand img {
+  height: 100px;
+  width: 45px;
+  border: radius 30px;
+  clip-path: circle();
+  padding-top: 50px;
+  /* padding-left: 0px; */
+  /* margin: 5px; */
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.container {
+  /* min-height: 80vh; */
+  height: 79vh;
+  display: flex;
+  /* background-color: black; */
+  color: rgb(56, 85, 55);
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 15px;
+  padding: 10px;
+  background-image: url("000.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.bottom {
+  position: sticky;
+  height: 100px;
+  /* background-color:rgba(78, 83, 78, 0.974); */
+  background-color: rgb(89, 110, 110);
+  color: white;
+  /* margin-top: 75vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 13px;
+  cursor: pointer;
+}
+
+#myProgessBar {
+  width: 80vw;
+  cursor: pointer;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  width: 100%;
+  background-color: rgb(199, 199, 226);
+  color: rgb(75, 69, 25);
+  border-radius: 34px;
+  /* margin-top: 3px; */
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.songItem img {
+  width: 35px;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.timeStamp {
+  margin-right: 25px;
+}
+
+.timeStamp i {
+  cursor: pointer;
+  padding-left: 7px;
+}
+
+.songInfo {
+  position: absolute;
+  display: flex;
+  left: 0;
+  padding-left: 10vw;
+}
